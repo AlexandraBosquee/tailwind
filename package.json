@@ -10,6 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^3.1.8",
+    "watchcss":"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    
   }
 }
