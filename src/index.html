@@ -15,18 +15,24 @@
 <div class="flex ">
     <div class="w-full ">
         <label for="fname">First name:</label><br>
-        <input type="text" class="form-input px-2 py-3 rounded-full w-full  " id="fname" name="fname"><br>
+        <input type="text" class="form-input px-2 py-3 rounded-full w-full focus:ring-4  focus:ring-pink-500 focus:border-gray-200 " id="fname" name="fname"><br>
     </div>
     <div class="w-full px-2">
         <label for="lname">Last name:</label><br>
-        <input type="text" class=" px-4 py-3 rounded-full w-full" id="lname" name="lname"> <br>
+        <input type="text" 
+        class=" px-4 py-3 
+        rounded-full w-full 
+        focus:ring-4
+        focus:ring-pink-500
+        focus:border-gray-200
+        " id="lname" name="lname"> <br>
     </div>
 </div>
 
 
 <div class="py-4">
     <h1>Selection</h1>
-    <select class="form-select px-2 py-3 rounded-full w-1/2">
+    <select class="form-select px-2 py-3 rounded-full w-1/2  focus:ring-pink-500 focus:border-pink-500">
         <option value="">--Please choose an option--</option>
     <option value="dog">Dog</option>
     <option value="cat">Cat</option>
@@ -38,7 +44,7 @@
 </div>
 <div class="py-4">
   <h1>Selection</h1>
-  <select class="px-2 py-3 rounded-full w-1/2">
+  <select class="px-2 py-3 rounded-full w-1/2  focus:ring-pink-500 focus:border-pink-500">
       <option value="">--Please choose an option--</option>
   <option value="dog">Dog</option>
   <option value="cat">Cat</option>
@@ -51,9 +57,9 @@
 
 <div class="py-4">
     <h1>Checkbox</h1>
-    <input type="checkbox" class="form-checkbox rounded text-pink-500" />
+    <input type="checkbox" class="form-checkbox rounded text-pink-500 border-0 focus:ring-0 focus:ring-offset-0" />
     <label for="vehicle1"> I have a bike</label><br>
-    <input type="checkbox" class="form-checkbox rounded text-pink-500" />
+    <input type="checkbox" class="form-checkbox rounded text-pink-500 focus:ring-pink-500" />
     <label for="vehicle2"> I have a car</label><br>
     <input type="checkbox" class="" />
     <label for="vehicle3"> I have a boat</label>
@@ -63,14 +69,14 @@
 <div class="py-4">
   <label for="story">Tell us your story:</label> <br>
 
-  <textarea id="story" name="story" class="form-textarea w-full rounded-md " rows="5" cols="33">
+  <textarea id="story" name="story" class="form-textarea w-full rounded-md  focus:ring-pink-500 focus:border-pink-500 " rows="5" cols="33">
   It was a dark and stormy night...
   </textarea>
 </div>
 
 <label for="story">Tell us your story:</label> <br>
 
-<textarea id="story" name="story" class="w-full" rows="5" cols="33">
+<textarea id="story  focus:ring-pink-500 focus:border-pink-500" name="story" class="w-full" rows="5" cols="33">
 It was a dark and stormy night...
 </textarea>
 </div>
@@ -80,17 +86,17 @@ It was a dark and stormy night...
     <legend>Select a maintenance drone:</legend>
 
     <div>
-      <input type="radio" id="huey" name="drone" value="huey" class="form-radio text-pink-500">
+      <input type="radio" id="huey" name="drone" value="huey" class="form-radio  text-pink-500 border-0 focus:ring-0 focus:ring-offset-0">
       <label for="huey">Huey</label>
     </div>
 
     <div>
-      <input type="radio" id="dewey" name="drone" value="dewey " class="text-pink-500">
+      <input type="radio" id="dewey" name="drone" value="dewey " class="form-radio  text-pink-500">
       <label for="dewey">Dewey</label>
     </div>
 
     <div>
-      <input type="radio" id="louie" name="drone" value="louie" >
+      <input type="radio" id="louie" name="drone" value="louie" class="text-pink-500" >
       <label for="louie">Louie</label>
     </div>
 </fieldset>
@@ -100,8 +106,8 @@ It was a dark and stormy night...
 <div class="py-4">
     <label for="cars">Choose a car:</label> <br>
 
-  <select name="cars" id="cars" class="form-multiselect w-1/2 " multiple>
-    <option value="volvo">Volvo</option>
+  <select name="cars" id="cars" class="form-multiselect w-1/2  focus:ring-pink-500 focus:border-pink-500 " multiple>
+    <option value="volvo" >Volvo</option>
     <option value="saab">Saab</option>
     <option value="opel">Opel</option>
     <option value="audi">Audi</option>
@@ -110,7 +116,7 @@ It was a dark and stormy night...
 <div class="py-4">
   <label for="cars">Choose a car:</label> <br>
 
-<select name="cars" id="cars" class="w-1/2 " multiple>
+<select name="cars" id="cars" class="w-1/2  focus:ring-pink-500 focus:border-pink-500 " multiple>
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
   <option value="opel">Opel</option>
